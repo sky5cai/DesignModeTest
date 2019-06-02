@@ -1,4 +1,4 @@
-package gongchangmode.weatherModel;
+package guanchaMode.weatherModel;
 
 /**
  * 观察者接口类

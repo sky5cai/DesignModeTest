@@ -1,8 +1,8 @@
-package gongchangmode.action;
+package guanchaMode.action;
 
-import gongchangmode.displayModel.CurrentConditionsDisplay;
-import gongchangmode.displayModel.StatisticsDisplay;
-import gongchangmode.weatherModel.WeatherData;
+import guanchaMode.displayModel.CurrentConditionsDisplay;
+import guanchaMode.displayModel.StatisticsDisplay;
+import guanchaMode.weatherModel.WeatherData;
 import org.junit.jupiter.api.Test;
 
 /**

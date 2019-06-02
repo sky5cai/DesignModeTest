@@ -1,8 +1,8 @@
-package gongchangmode.displayModel;
+package guanchaMode.displayModel;
 
-import gongchangmode.weatherModel.DisplayElement;
-import gongchangmode.weatherModel.Observer;
-import gongchangmode.weatherModel.Subject;
+import guanchaMode.weatherModel.DisplayElement;
+import guanchaMode.weatherModel.Observer;
+import guanchaMode.weatherModel.Subject;
 
 /**
  * @Author:zhanCai
