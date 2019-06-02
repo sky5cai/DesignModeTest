@@ -1,4 +1,4 @@
-package shipeiqiMode;
+package singleMode;
 
 /**
  * @Author:zhanCai
