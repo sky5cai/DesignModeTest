@@ -3,7 +3,7 @@ package observerMode.action;
 import observerMode.displayModel.CurrentConditionsDisplay;
 import observerMode.displayModel.StatisticsDisplay;
 import observerMode.weatherModel.WeatherData;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /**
  * @Author:zhanCai

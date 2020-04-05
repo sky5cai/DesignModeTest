@@ -1,5 +1,6 @@
 package strategyMode.duckModel;
 
+import strategyMode.QuackModel.MuteQuack;
 import strategyMode.QuackModel.Quack;
 import strategyMode.flyModel.FlyNoWay;
 
@@ -12,10 +13,10 @@ import strategyMode.flyModel.FlyNoWay;
 public class ModelDuck extends Duck{
     public ModelDuck(){
         flyBehavior = new FlyNoWay();
-        quackBehavior = new Quack();
+        quackBehavior = new MuteQuack();
     }
 
     public void display(){
-        System.out.println("i'm a weatherModel duck");
+        System.out.println("i'm a Model duck");
     }
 }

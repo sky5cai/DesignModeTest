@@ -5,7 +5,7 @@ import commandMode.commandModel.LightOnCommand;
 import commandMode.controller.RemoteControl;
 import commandMode.controller.SimpleRemoteControl;
 import commandMode.model.Light;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /**
  * @Author:zhanCai

@@ -1,9 +1,9 @@
 package strategyMode.action;
 
+import org.junit.Test;
 import strategyMode.duckModel.Duck;
 import strategyMode.duckModel.MallardDuck;
 import strategyMode.flyModel.FlyRockPowered;
-import org.junit.jupiter.api.Test;
 
 /**
  * 场景：游乐园放几种不同的鸭子，玩具鸭，真的鸭子，不会飞的鸭子
@@ -21,7 +21,11 @@ public class MiniDuckSimulator {
         Duck mallard = new MallardDuck();
         mallard.performFly();
         mallard.performQuack();
+
     }
+    //执行结果
+//    我在飞
+//    鸭子在呱呱叫
 
     /**
      * 场景：中途更换飞行的模式状态
@@ -35,6 +39,10 @@ public class MiniDuckSimulator {
         mallard.setFlyBehavior(new FlyRockPowered());
         mallard.performFly();
     }
+    //执行结果
+//    我在飞
+//    鸭子在呱呱叫
+//    我飞的像火箭那么快
 
 
 }

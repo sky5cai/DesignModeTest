@@ -1,6 +1,6 @@
 package stateMode.test;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import stateMode.controller.GumballMachine;
 
 /**
