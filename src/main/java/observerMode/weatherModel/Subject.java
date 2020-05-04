@@ -1,7 +1,9 @@
 package observerMode.weatherModel;
 
+import observerMode.displayModel.Observer;
+
 /**
- * 管理
+ * 管理类
  * @Author:zhanCai
  * @Description:
  * @Date:Created in  15:36 2019/6/1

@@ -1,5 +1,7 @@
 package observerMode.weatherModel;
 
+import observerMode.displayModel.Observer;
+
 import java.util.ArrayList;
 
 /**
@@ -7,6 +9,7 @@ import java.util.ArrayList;
  * @Description:
  * @Date:Created in  15:47 2019/6/1
  * @Modified by
+ * 天气数据
  */
 public class WeatherData implements Subject {
     private ArrayList observers;
@@ -32,6 +35,7 @@ public class WeatherData implements Subject {
     }
 
     @Override
+    //通知观察者
     public void notifyObserver() {
         for (int i = 0; i < observers.size(); i++) {
             Observer observer = (Observer) observers.get(i);
@@ -42,7 +46,7 @@ public class WeatherData implements Subject {
     public void messurementsChanged(){
         notifyObserver();
     }
-
+    //温度变化
     public void setMessurements(float temperature,float humidity,float pressure){
         this.temperature = temperature;
         this.humidity = humidity;
