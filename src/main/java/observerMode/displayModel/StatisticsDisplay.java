@@ -1,7 +1,5 @@
 package observerMode.displayModel;
 
-import observerMode.weatherModel.DisplayElement;
-import observerMode.weatherModel.Observer;
 import observerMode.weatherModel.Subject;
 
 /**
@@ -9,6 +7,7 @@ import observerMode.weatherModel.Subject;
  * @Description:
  * @Date:Created in  15:57 2019/6/1
  * @Modified by
+ * StatisticsDisplay显示的是跟踪最小、平均、最大的观测值，并显示他们
  */
 public class StatisticsDisplay implements Observer,DisplayElement {
     private float temperature;

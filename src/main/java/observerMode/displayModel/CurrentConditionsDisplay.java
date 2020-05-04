@@ -1,7 +1,5 @@
 package observerMode.displayModel;
 
-import observerMode.weatherModel.DisplayElement;
-import observerMode.weatherModel.Observer;
 import observerMode.weatherModel.Subject;
 
 /**
@@ -9,6 +7,7 @@ import observerMode.weatherModel.Subject;
  * @Description:
  * @Date:Created in  15:57 2019/6/1
  * @Modified by
+ * CurrentConditionsDisplay显示当前观测值
  */
 public class CurrentConditionsDisplay implements Observer,DisplayElement {
     private float temperature;

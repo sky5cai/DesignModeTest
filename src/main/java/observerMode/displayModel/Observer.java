@@ -1,4 +1,4 @@
-package observerMode.weatherModel;
+package observerMode.displayModel;
 
 /**
  * 观察者接口类

@@ -1,4 +1,4 @@
-package observerMode.weatherModel;
+package observerMode.displayModel;
 
 /**
  * @Author:zhanCai
