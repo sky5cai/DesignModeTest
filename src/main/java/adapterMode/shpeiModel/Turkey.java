@@ -5,6 +5,7 @@ package adapterMode.shpeiModel;
  * @Description:
  * @Date:Created in  23:38 2019/6/5
  * @Modified by
+ * 火鸡
  */
 public interface Turkey {
     public void gobble();

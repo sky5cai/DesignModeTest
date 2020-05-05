@@ -9,11 +9,12 @@ package adapterMode.shpeiModel;
 public class WildTurkey implements Turkey {
     @Override
     public void gobble() {
+        System.out.println("我叫的很大声");
 
     }
 
     @Override
     public void fly() {
-
+        System.out.println("我想火箭一样的飞");
     }
 }
